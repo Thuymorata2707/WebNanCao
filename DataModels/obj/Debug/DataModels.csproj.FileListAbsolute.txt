@@ -1,0 +1,14 @@
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\DataModels.dll.config
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\DataModels.dll
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\DataModels.pdb
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\EntityFramework.dll
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\EntityFramework.SqlServer.dll
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\EntityFramework.xml
+D:\webnangcao\ProjectBaoCao\DataModels\bin\Debug\EntityFramework.SqlServer.xml
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.csproj.AssemblyReference.cache
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.Migrations.init_simple_database.resources
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.csproj.GenerateResource.cache
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.csproj.CoreCompileInputs.cache
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.csproj.CopyComplete
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.dll
+D:\webnangcao\ProjectBaoCao\DataModels\obj\Debug\DataModels.pdb

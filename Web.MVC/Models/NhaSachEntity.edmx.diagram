@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d7c2cf60450b4e5ab84b059258346459" Name="Diagram1">
+        <EntityTypeShape EntityType="NhaSachModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.ChiTietHoaDon" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.ChucVu" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.GioHang" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.HoaDon" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.NguoiDung" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.NhaSanXuat" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.SanPham" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaSachModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_ChiTietHoaDon_dbo_HoaDon_HoaDonId" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_ChiTietHoaDon_dbo_SanPham_SanPhamId" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_NguoiDung_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_GioHang_dbo_NguoiDung_NguoiDungId" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_GioHang_dbo_SanPham_SanPhamId" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_HoaDon_dbo_NguoiDung_NguoiMua" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaSachModel.FK_dbo_SanPham_dbo_NhaSanXuat_NhaSanXuatId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

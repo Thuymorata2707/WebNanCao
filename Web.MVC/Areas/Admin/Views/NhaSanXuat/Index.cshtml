@@ -1,0 +1,30 @@
+﻿@model IEnumerable<DataModels.EF.NhaSanXuat>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Danh sách nhà sản xuất</h2>
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                Tên nhà sản xuất
+            </th>
+            <th>
+                Mô tả
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var nsx in Model)
+            {
+                <tr>
+                    <td>@nsx.TenNSX</td>
+                    <td>@nsx.MoTa</td>
+                </tr>
+            }
+    </tbody>
+</table>
